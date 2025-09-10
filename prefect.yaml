@@ -1,7 +1,7 @@
 # File for configuring project / deployment build, push and pull steps
 
 # Generic metadata about this project
-name: zoom_mlops
+name: prefect-mlops-zoomcamp
 prefect-version: 2.10.8
 
 # build section allows you to manage and build docker images
@@ -13,6 +13,6 @@ push: null
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
 - prefect.projects.steps.git_clone_project:
-    repository: https://github.com/discdiver/prefect-mlops-zoomcamp.git
-    branch: main
+    repository: https://github.com/nateeatsrice/prefect-mlops-zoomcamp.git
+    branch: codespace-stunning-couscous-9qw9gwjqppvhx5w5
     access_token: null
